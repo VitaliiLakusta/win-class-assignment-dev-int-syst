@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="App_DevIntSys.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App_DevIntSys"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock HorizontalAlignment="Left" Margin="48,189,0,0" TextWrapping="Wrap" Text="This is me when I am very happy! Probably after finding bug in my program!" VerticalAlignment="Top" Height="51" Width="185"/>
+        <Image x:Name="imgViewer1" HorizontalAlignment="Left" Height="145" Margin="238,140,0,0" VerticalAlignment="Top" Width="365"/>
+        <TextBlock HorizontalAlignment="Left" Margin="177,354,0,0" TextWrapping="Wrap" Text="This is me when I am very, very serious!!!" VerticalAlignment="Top" Height="51" Width="185"/>
+        <Image x:Name="imgViewer2" HorizontalAlignment="Left" Height="145" Margin="367,305,0,0" VerticalAlignment="Top" Width="365"/>
+        <TextBlock HorizontalAlignment="Left" Margin="610,538,0,0" TextWrapping="Wrap" Text="And now...HALK is really angry!" VerticalAlignment="Top" Height="51" Width="185"/>
+        <Image x:Name="imgViewer3" HorizontalAlignment="Left" Height="145" Margin="800,489,0,0" VerticalAlignment="Top" Width="365"/>
+        <Button x:Name="btnTakePic1" Content="TAKE A PIC" HorizontalAlignment="Left" Margin="655,205,0,0" VerticalAlignment="Top" Click="btnTakePic1_Click"/>
+        <Button x:Name="btnTakePic2" Content="TAKE A PIC" HorizontalAlignment="Left" Margin="765,370,0,0" VerticalAlignment="Top" Click="btnTakePic2_Click"/>
+        <Button x:Name="btnTakePic3" Content="TAKE A PIC" HorizontalAlignment="Left" Margin="1218,535,0,0" VerticalAlignment="Top" Click="btnTakePic3_Click"/>
+    </Grid>
+</Page>
